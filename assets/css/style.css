@@ -1,4 +1,32 @@
-body{
-    font-family: Arial;
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
 
 }
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+    
+
+}
+
+/*heading and Logo styling*/
+
+h1, h2{
+    font-size: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #2f2f2f;
+
+}
+
+#logo{
+    float: left;
+    font-size: 280%;
+}
+
+
