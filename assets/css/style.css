@@ -1,4 +1,5 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300&family=Poppins:wght@300&display=swap');
+*{
     margin: 0;
     padding: 0;
     border: none;
@@ -7,26 +8,138 @@
 
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Lato, Helvetica, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
-    
-
 }
+
+
+
+
 
 /*heading and Logo styling*/
 
-h1, h2{
-    font-size: Arial, Helvetica, sans-serif;
+h1, h2 {
+    font-size: Poppins, Helvetica, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #2f2f2f;
 
 }
 
-#logo{
+#logo {
     float: left;
     font-size: 280%;
 }
 
+/*Navigation link*/
+menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
 
+#menu,#logo {
+    line-height: 75px;
+
+
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;  /*color of the body as this is the parent element--TO BE CHANGED*/
+ 
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+
+}
+
+.active{
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/*introduce hero image*/
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-image.jpg') no-repeat center center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.inner-footer {
+    margin: o;
+    padding: 0;
+    background-color: #272727;
+
+}
+
+.social-links {
+    display: flex;
+    
+}
+
+.social-links ul{
+    display: flex;
+}
+
+.social-items{
+    
+    list-style: none;
+}
+
+.social-items a {
+    padding: 10px 20px;
+    font-size: 20px;
+    width: 300px;
+    height: 30px;
+    margin: auto;
+
+
+}
+
+
+/*Targetting specific color for social media icon*/
+.fa-facebook-f{
+    color: #3b5998;
+
+}
+
+
+.fa-twitter{
+    color: #1da1f2;
+}
+
+.fa-youtube{
+    color: red;
+}
+
+/*put the other code to show real color of social media icon*/
+
+
+.outer-footer {
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    background-color: #3f3f3f;
+
+}
