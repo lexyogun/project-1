@@ -78,11 +78,10 @@ menu {
 
 
 
+/*test code---below hero image*/
 
 
-
-
-
+/*put the other code to show real color of social media icon*/
 
 
 .inner-footer {
@@ -113,16 +112,13 @@ menu {
     height: 30px;
     margin: auto;
 
-
 }
-
 
 /*Targetting specific color for social media icon*/
 .fa-facebook-f{
     color: #3b5998;
 
 }
-
 
 .fa-twitter{
     color: #1da1f2;
@@ -132,7 +128,6 @@ menu {
     color: red;
 }
 
-/*put the other code to show real color of social media icon*/
 
 
 .outer-footer {
