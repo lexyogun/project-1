@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300&family=Poppins:wght@300&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 
 }
 
@@ -19,7 +21,8 @@ body {
 
 /*heading and Logo styling*/
 
-h1, h2 {
+h1,
+h2 {
     font-size: Poppins, Helvetica, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -38,7 +41,8 @@ menu {
     letter-spacing: 4px;
 }
 
-#menu,#logo {
+#menu,
+#logo {
     line-height: 75px;
 
 
@@ -52,8 +56,9 @@ menu {
 
 #menu a {
     text-decoration: none;
-    color: inherit;  /*color of the body as this is the parent element--TO BE CHANGED*/
- 
+    color: inherit;
+    /*color of the body as this is the parent element--TO BE CHANGED*/
+
 }
 
 #menu a:hover {
@@ -61,12 +66,12 @@ menu {
 
 }
 
-.active{
+.active {
     border-bottom: 1px solid #3a3a3a;
 }
 
 /*introduce hero image*/
-#hero-image{
+#hero-image {
     height: 600px;
     width: 100%;
     background: url('../images/hero-image.jpg') no-repeat center center;
@@ -81,6 +86,33 @@ menu {
 /*test code---below hero image*/
 
 
+.allcol {
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media screen and (max-width:768px) {
+    .allcol {
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
 /*put the other code to show real color of social media icon*/
 
 
@@ -93,15 +125,15 @@ menu {
 
 .social-links {
     display: flex;
-    
+
 }
 
-.social-links ul{
+.social-links ul {
     display: flex;
 }
 
-.social-items{
-    
+.social-items {
+
     list-style: none;
 }
 
@@ -115,16 +147,16 @@ menu {
 }
 
 /*Targetting specific color for social media icon*/
-.fa-facebook-f{
+.fa-facebook-f {
     color: #3b5998;
 
 }
 
-.fa-twitter{
+.fa-twitter {
     color: #1da1f2;
 }
 
-.fa-youtube{
+.fa-youtube {
     color: red;
 }
 
