@@ -86,7 +86,6 @@ header{
     padding-top: 200px;
     padding-left: 90px;
     
-
 }
 
 
@@ -183,8 +182,23 @@ header{
 
 
 
-    /* About Us Page*/
-
     
 
 }
+
+/* About Us Page*/
+
+.image-section{
+    float: left;  
+     
+}
+
+.abo-image{
+     width:372px;
+    height: 558px;
+    
+}
+.content-right{
+    padding-left: 392px;
+}
+
